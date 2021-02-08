@@ -8,6 +8,9 @@ for this purpose.
 Motivation & Features
 ---------------------
 
+Raw Diffraction Data & Test Data
+--------------------------------
+Due to GitHub's file size limitations, please download the raw simulated diffraction patterns as well as the test data from Mendeley (link coming soon)
 
 Data Creation
 -------------
@@ -31,14 +34,17 @@ raw_data
 testing_data - the data and labels used for testing. Each crystal has an perfect, edge defect, and screw defect
 crystal inside the dataset.
 
-trained_model
-    v1 - one trained model with test accuracy of:
+trained_model-AutoKeras
+    -  containes the trained AutoKeras model
+    -  the base model created by AutoKeras. Must use Tensorflow 2.1.0 to import.
+    
+    
+trained_model-VGG16
+    containes the trained VGG16 model
+    
+trained_model-Handmade
+    containes the trained Handmade model
 
-    v2 - one trained model with test accuracy of:
-
-
-untrained_model
-   -  the base model created by AutoKeras. Must use Tensorflow 2.1.0 to import.
 
 ipynb - contains jupyter notebook files that detail how to go from raw PYNX data to the training the final neural
 network model. 
