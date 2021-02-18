@@ -25,14 +25,15 @@ Please see https://crystal-simulation.readthedocs.io/en/latest/index.html for a 
 File Manifest
 --------------
 
-raw_data
+raw_data (found at http://dx.doi.org/10.17632/2r86xtvhdz.1)
     reflection - the reflection being simulated
         sampling_rate - the sampling rate being applied to the simulation
             tif - holds the raw 3D CDI images for each type of crystal
             png - visual representation of all cdi data for each crystal
 
-testing_data - the data and labels used for testing. Each crystal has an perfect, edge defect, and screw defect
-crystal inside the dataset.
+testing_data (found at http://dx.doi.org/10.17632/2r86xtvhdz.1)
+    - the data and labels used for testing. 
+    - Each crystal has an defect free, edge defect, and screw defect crystal inside the dataset. Created from crystals 2, 3 and 14.
 
 trained_model-AutoKeras
     -  containes the trained AutoKeras model
